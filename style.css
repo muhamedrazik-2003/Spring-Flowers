@@ -6,21 +6,20 @@
   font-weight: 600;
   font-style: normal;
 }
-body {
-  height: 2500vh;
-}
+
 #logo {
   font-size: 3rem;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  text-shadow: 0 0 2px #473495;
   font-style: italic;
 
 }
-header, .dropdown-menu {
+header, #dropdown {
   
   color:  #9370DB;
-  background-color: #e7ceff;
+  background-color: #d1bae9;
   font-size: 14px;
   transition: .4s;
 }
@@ -39,19 +38,42 @@ header, .dropdown-menu {
   border-bottom: 3px solid #ffffff00 ;
   
 }
+#dropdown{
+  position: absolute;
+  top: 100;
+  left: 0;
+  z-index: 10000;
+  visibility: hidden;
+}
+.nav-item:hover #dropdown {
+  visibility: visible;
+}
 #nav-bottom .nav-link:hover {
   color: #5d3fd3;
   border-bottom: 3px solid #5d3fd3 ;
   
 }
 
-.dropdown-menu ul li,a{
+#dropdown ul li,a{
   list-style-type: none;
   text-decoration: none;
+  
   line-height: 2.5;
   color:  #5D3FD3;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: 500;
+}
+#dropdown-subheading {
+  font-weight: 700;
+  font-size: 14px;
+}
+#dropdown a:hover {
+  color: #000000;
+  border-bottom: 1px solid #5d3fd3 ;
+}
+.dropdown-img {
+  border: 1px solid #9f6afa;
+  box-shadow: 0 0 10px  #9f6afa;
 }
 #header-carousal {
   background-color: #9f6afa;
