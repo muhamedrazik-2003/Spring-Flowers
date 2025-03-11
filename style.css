@@ -33,3 +33,7 @@ header {
   border-bottom:3px solid #5d3fd3 ;
   
 }
+#header-carousal {
+  background-color: #9f6afa;
+  color: rgb(255, 255, 255);
+}
