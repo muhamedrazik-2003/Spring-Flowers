@@ -20,17 +20,22 @@ header {
   color: #9370db;
   background-color: #f6d6ff;
   font-size: 12px;
-  transition: .3s;
+  transition: .4s;
 }
+
 #nav-top a:hover {
   color: #5d3fd3;
   background-color: #ffffff;
   border-radius: 30px;
   
 }
+#nav-bottom a{
+  border-bottom: 3px solid #f6d6ff ;
+  
+}
 #nav-bottom a:hover {
   color: #5d3fd3;
-  border-bottom:3px solid #5d3fd3 ;
+  border-bottom: 3px solid #5d3fd3 ;
   
 }
 #header-carousal {
