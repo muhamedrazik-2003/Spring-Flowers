@@ -17,11 +17,11 @@ body {
   font-style: italic;
 
 }
-header {
+header, .dropdown-menu {
   
-  color: #9370db;
-  background-color: #ebd6ff;
-  font-size: 12px;
+  color:  #9370DB;
+  background-color: #e7ceff;
+  font-size: 14px;
   transition: .4s;
 }
 #nav-sticky {
@@ -36,15 +36,25 @@ header {
   
 }
 #nav-bottom a{
-  border-bottom: 3px solid #f6d6ff ;
+  border-bottom: 3px solid #ffffff00 ;
   
 }
-#nav-bottom a:hover {
+#nav-bottom .nav-link:hover {
   color: #5d3fd3;
   border-bottom: 3px solid #5d3fd3 ;
   
+}
+
+.dropdown-menu ul li,a{
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2.5;
+  color:  #5D3FD3;
+  font-size: 12px;
+  font-weight: normal;
 }
 #header-carousal {
   background-color: #9f6afa;
   color: rgb(255, 255, 255);
 }
+
