@@ -95,3 +95,43 @@ header, #dropdown {
   visibility: visible;
 }
 
+#new-product-card {
+  display: flex;
+  width: max-content;
+  
+}
+
+.new-product {
+  width: 1028px;
+  max-width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  margin: 10px auto;
+}
+.new-product::-webkit-scrollbar {
+  display: none;
+}
+#new-item {
+  width: 300px;
+
+}
+.control-btn {
+  position: relative;
+}
+#prev, #next {
+  padding: 20px 14px;
+  margin: 10px;
+  text-align: center;
+  border: 3px solid rgb(150, 150, 150);
+  border-radius: 50%;
+  opacity: .3;
+  position: absolute;
+  top: 190px;
+  z-index: 8;
+}
+#prev {
+  left: 0;
+}
+#next {
+  right: 0;
+}
