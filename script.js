@@ -5,7 +5,7 @@ document.getElementById("prev").onclick = function () {
 };
 
 document.getElementById("next").onclick = function () {
-    const itemWidth = document.getElementById("new-item").offsetWidth + 32;
+    const itemWidth = document.getElementById("new-item").offsetWidth + 32     ;
     document.querySelector(".new-product").scrollLeft += itemWidth;
 };
 
