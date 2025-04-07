@@ -143,20 +143,34 @@ header, #dropdown {
 }
 
 #offer {
-  position: relative;
+  position: relative; 
   margin-top: 120px ;
   margin-bottom: 120px;
+  background-image: url(./images/offer\ banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
 }
 #offer-content {
 position: absolute;
 top: 30%;
 left: 60%;
 }
+#offer-content-alt {
+position: absolute;
+top: 45%;
+}
 #offer-content h2 {
   font-size: 50px;
 }
+#offer-content-alt h2 {
+  font-size: 30px;
+  margin: 0 10px;
+}
+#offer-content-alt .btn {
+  font-size: 16px;
+}
 .btn {
-/* text-decoration: underline; */
 background-color: #5d3fd3;
 border-radius: 20px;
 color: white;
