@@ -141,3 +141,24 @@ header, #dropdown {
   opacity: 1;
 
 }
+
+#offer {
+  position: relative;
+  margin-top: 120px ;
+  margin-bottom: 120px;
+}
+#offer-content {
+position: absolute;
+top: 30%;
+left: 60%;
+}
+#offer-content h2 {
+  font-size: 50px;
+}
+.btn {
+/* text-decoration: underline; */
+background-color: #5d3fd3;
+border-radius: 20px;
+color: white;
+margin-top: 20px;
+}
