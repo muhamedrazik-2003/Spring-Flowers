@@ -144,7 +144,7 @@ header, #dropdown {
 
 #offer {
   position: relative; 
-  margin-top: 120px ;
+  margin-top: 60px ;
   margin-bottom: 120px;
   background-image: url(./images/offer\ banner.jpg);
   background-size: cover;
@@ -158,7 +158,7 @@ left: 60%;
 }
 #offer-content-alt {
 position: absolute;
-top: 45%;
+top: 40%;
 }
 #offer-content h2 {
   font-size: 50px;
