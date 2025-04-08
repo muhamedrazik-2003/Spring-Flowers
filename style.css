@@ -16,10 +16,11 @@
   font-style: italic;
 }
 h2 {
-  font-size: 2rem;
-  font-style:normal;
+  font-size: 1.8rem;
+  font-style: normal;
   color:  #9370DB;
 }
+
 header, #dropdown {
   
   color:  #9370DB;
@@ -162,6 +163,7 @@ top: 40%;
 }
 #offer-content h2 {
   font-size: 50px;
+
 }
 #offer-content-alt h2 {
   font-size: 30px;
@@ -177,6 +179,10 @@ color: white;
 margin-top: 20px;
 }
 #customer-review {
-  padding: 100px 0;
-  background-color: #b974fd;
+  padding: 90px 0;
+  color: #3e006a;
+  background-color: #dbc9ff;
+}
+#customer-review div {
+  line-height: 1.6;
 }
