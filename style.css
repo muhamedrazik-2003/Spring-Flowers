@@ -186,3 +186,12 @@ margin-top: 20px;
 #customer-review div {
   line-height: 1.6;
 }
+.footer a,ul,li{
+  list-style-type: none;
+  text-decoration: none;
+  color: #5d3fd3;
+  cursor: pointer;
+  line-height: 2.5;
+  font-size: 12px;
+  font-weight: 500;
+}
